@@ -430,7 +430,7 @@ button {
 
 @media (max-width: 750px) {
   .logo img {
-    width: 50px;
+    width: 80px;
   }
 
   .logo h1 {
@@ -519,11 +519,7 @@ button {
   .container {
     padding: 15px 30px;
   }
-
-  .logo img {
-    width: 40px;
-  }
-
+  
   .logo h1 {
     font-size: 11px;
   }
