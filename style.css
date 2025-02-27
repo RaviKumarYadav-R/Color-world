@@ -23,33 +23,10 @@ button {
   justify-content: space-between;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  color: #fff;
-  gap: 5px;
-}
 
 .logo img {
-  width: 80px;
-  text-shadow: 4px 4px 5px #fff;
-}
-
-.logo h1 {
-  font-size: 1.5rem;
-  position: relative;
-}
-
-.logo h1::after {
-  content: "Ravi";
-  font-size: 8px;
-  position: absolute;
-  color: #000;
-  right: -5px;
-  top: -10px;
-  background-color: #46c489;
-  padding: 1.5px 3px;
-  border-radius: 8px;
+  width: 100px;
+  filter: drop-shadow(2px 1px 0 #000);
 }
 
 .logo-links nav ul {
